@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(207, 191, 191);
+
+}
+
+h1{
+color: rgb(199, 201, 74);
+text-align: center;
+font-size: 80px;
+background-color: darkred;
+}
+
+h2 {
+color:rgb(3, 3, 129) ;
+text-align: center;
+font-size: 55px;
+}
+
+p {
+ font-size: 20px;
+ text-align: justify; 
+ width: 700px;
+ margin-left: 400px;
+}
+ img{
+     max-width: 500px;
+     width: 100%;
+     margin: 10px 100px  10px 0px;
+     float: right;
+ }
+
+
+
+.center {
+    text-align: center;
+}
+a:hover {
+    color: brown;
+    pointer-events: visible;
+}
+#mySearch{
+    padding: 0.5em;
+    border-color: rgba(5, 12, 112, 0.349);
+    color: rgb(3, 3, 77);
+    font-style: oblique;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 50px; 50px;
+    float:right;
+}
