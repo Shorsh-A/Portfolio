@@ -1,67 +1,101 @@
 
 //const myAddress = 'Via Pesa del Lino, 17\n20900 Monza (MB)\nItaly'
 
-const street = 'Via Pesa del Lino,'
-const civicNumber = '17'
-const zipCode = '20900'
-const city = 'Monza'
-const province = '(MB)'
-const country = 'Italy'
-const newLine = '\n'
-const space = ' '
-const address = street + civicNumber + newLine + zipCode + space + city + newLine + province + newLine + country
+// const street = 'Via Pesa del Lino,'
+// const civicNumber = '17'
+// const zipCode = '20900'
+// const city = 'Monza'
+// const province = '(MB)'
+// const country = 'Italy'
+// const newLine = '\n'
+// const space = ' '
+// const address = street + civicNumber + newLine + zipCode + space + city + newLine + province + newLine + country
 
-console.log(address)
+// console.log(address)
 
 
-const newAddress = `${street} ${civicNumber} ${zipCode} ${city} ${province} ${country}`
+// const newAddress = `${street} ${civicNumber} ${zipCode} ${city} ${province} ${country}`
 
-console.log(newAddress)
+// console.log(newAddress)
 
-const workExp = "Intercos.SpA , Procura di Monza , SPPC , CementRezin"
-const education = "Associate Digree of Civil Engineering , Terza media (Italy)"
-const language = "Kurdish(mother language) , Persian(bilingua) , Italian , English , Norwegian"
-const softSkill = "Punctual , Hard worker , proactive , Team player"
+// const workExp = "Intercos.SpA , Procura di Monza , SPPC , CementRezin"
+// const education = "Associate Digree of Civil Engineering , Terza media (Italy)"
+// const language = "Kurdish(mother language) , Persian(bilingua) , Italian , English , Norwegian"
+// const softSkill = "Punctual , Hard worker , proactive , Team player"
 
- let cv = `
- EDUCATION: ${education} 
+//  let cv = `
+//  EDUCATION: ${education} 
  
- WORK_EXPERIENCE: ${workExp}
+//  WORK_EXPERIENCE: ${workExp}
  
- LANGUAGE: ${language} 
+//  LANGUAGE: ${language} 
  
- SOFT SKILL: ${softSkill}
-`
+//  SOFT SKILL: ${softSkill}
+// `
 
 
- let g = prompt ("Guess a number", '');
-let r = (Math.floor(Math.random() * 10));
+// /*let g = prompt ("Guess a number", '');
+// let r = (Math.floor(Math.random() * 10));
 
 
-if (g == r) {
-    alert ("great!");
+// if (g == r) {
+//     alert ("great!");
+// }
+
+// else {
+//     alert(g + " was wrong, "  +  "I thought about " + r);
+// } 
+
+
+
+
+// let start = prompt ("Think about a number and add it the next number after that:", '');
+// prompt (" Add 9 to the result", '');
+// prompt ("Divide the result to 2:", '')
+// prompt ("Now subtract the number that had you thought from this number:", '')
+// alert('Your answer is always 5!!  ;)') */
+
+// let i = 0;
+// while (i < 3) {
+//     alert (i);
+//     ++i;
+// } 
+
+//  let i = 3;
+// while (i > 3) {
+//     alert (i);
+//     --i;
+// } 
+
+
+
+// let count = 0;
+// let str = "";
+// while (count < 16) {
+//        str += "Na ";
+//        count++;
+// }
+// str += "Batman!";
+// alert(str);
+
+let x = -2;
+let y = 0;
+let z = 4;
+if (z > y && z > x && y > x) {
+alert (z + "," + y + "," + x);
 }
 
-else {
-    alert(g + " was wrong, "  +  "I thought about " + r);
-} 
 
 
 
 
-let start = prompt ("Think about a number and add it the next number after that:", '');
-prompt (" Add 9 to the result", '');
-prompt ("Divide the result to 2:", '')
-prompt ("Now subtract the number that had you thought from this number:", '')
-alert('Your answer is always 5!!  ;)')
 
 
-let i = 0;
-while (i < 3) {
-    alert (i);
-    ++i;
 
-}
+
+
+
+
 
 
 
