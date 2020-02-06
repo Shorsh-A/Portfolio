@@ -78,26 +78,82 @@
 // str += "Batman!";
 // alert(str);
 
-let x = -2;
-let y = 0;
-let z = 4;
-if (z > y && z > x && y > x) {
-alert (z + "," + y + "," + x);
-}
+// let x = -2;
+// let y = 0;
+// let z = 4;
+// if (z > y && z > x && y > x) {
+// alert (z + "," + y + "," + x);
+// }
+// 
 
 
 
+// let i = prompt ("Inter a number");
+//     while (i && i <= 100) {
+//         i = prompt("Wrong, try again");
+//     }
+//     alert ('cool!')
+
+
+// for (let n = 2 ; n < 10; n++){
+//     let isprime = true;
+
+//     for (let m = 2; m < n - 1 && isprime; m++)
+//     {
+//         if (n % m == 0){
+//             isprime = false;
+//         }
+//     }   
+
+//     if(isprime)
+//         console.log (n);
+// }
 
 
 
+//  for (let n = 2; n < 10; n++) {
+//      let isPrime = true;
+
+//      for (let m = 2; m < n-1 && isPrime; m++){
+//          if (n % m == 0) {
+//              isPrime = false; 
+//          }
+//      }
+//      if (isPrime)     alert (n)
+//  }
+    
+
+// Prime Numbers between 1 - 10
+
+  for (let n = 2; n < 10; n++) {
+    let isPrime = true;
+    
+    for (let m = 2; m < n-1 && isPrime; m++){
+        if (n % m == 0) {
+            isPrime = false;
+        }
+    }
+        if (isPrime)
+        alert (n)
+} 
 
 
+// Odd Numbers between 1 - 10
+
+ for (let n = 2; n < 10 ; n++){
+     if (n % 2 == 0)
+     alert(n)
+ }
 
 
+// Even Numbers between 1 - 10
 
+ for (let n = 1; n < 10; n++){
+     let oddNr = true;
 
-
-
+     if (n % 2 !== 0)
+     alert (n)
+ }
 
 
 
