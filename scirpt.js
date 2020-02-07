@@ -125,7 +125,7 @@
 
 // Prime Numbers between 1 - 10
 
-  for (let n = 2; n < 10; n++) {
+  /* for (let n = 2; n < 10; n++) {
     let isPrime = true;
     
     for (let m = 2; m < n-1 && isPrime; m++){
@@ -153,7 +153,74 @@
 
      if (n % 2 !== 0)
      alert (n)
- }
+ } */
+
+
+    // ********
+    // ********
+    // ********
+
+ /*
+let x = 10;
+let y = 20;
+let z = 30;
+
+let str = '';
+let str2 = '';
+let str3 = '';
+let space = "  "
+
+
+
+for (let x = 0; x <= 10; x++){
+    str += x + space;
+}
+
+
+for (let y = 0; y <= 20; y++){
+    if (y % 2 == 0) {
+        str2 += y + space;
+    }
+} 
+
+for (let z = 0; z <= 30; z++){
+    if (z % 3 == 0) {
+        str3 += z + space;
+    }
+}
+
+alert (`${str} \n ${str2} \n ${str3}`) */
+
+
+
+
+const ROWS = 10;
+let space = " "
+let block = "* "
+let str = '';
+
+// str += space + space + space + space + space + space + block + '\n'; // 0: 6 spaces, 1 block
+// str += space + space + space + space + block + block + block + '\n'; // 1: 4 spaces, 3 blocks
+// str += space + space + block + block + block + block + block + '\n'; // 2: 2 spaces, 5 blocks
+// str += block + block + block + block + block + block + block + '\n'; // 3: 0 spaces, 7 blocks
+
+for (let i = 0; i < ROWS; i++) {
+    let spacesNumber = (ROWS - 1 - i) * 2;
+    for (let j = 0; j < spacesNumber; j++) {
+        str += space;
+    }
+    
+    let blocksNumber = i * 2 + 1;
+    for (let j = 0; j < blocksNumber; j++) {
+        str += block;
+    }
+
+    str += '\n';
+}
+
+console.log(str);
+
+
 
 
 
