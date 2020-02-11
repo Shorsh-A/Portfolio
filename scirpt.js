@@ -125,7 +125,8 @@
 
 // Prime Numbers between 1 - 10
 
-  /* for (let n = 2; n < 10; n++) {
+/*  
+for (let n = 2; n < 10; n++) {
     let isPrime = true;
     
     for (let m = 2; m < n-1 && isPrime; m++){
@@ -135,12 +136,12 @@
     }
         if (isPrime)
         alert (n)
-} 
+} */
 
 
 // Odd Numbers between 1 - 10
 
- for (let n = 2; n < 10 ; n++){
+/*  for (let n = 2; n < 10 ; n++){
      if (n % 2 == 0)
      alert(n)
  }
@@ -193,7 +194,7 @@ alert (`${str} \n ${str2} \n ${str3}`) */
 
 
 
-
+/*
 const ROWS = 10;
 let space = " "
 let block = "* "
@@ -203,6 +204,7 @@ let str = '';
 // str += space + space + space + space + block + block + block + '\n'; // 1: 4 spaces, 3 blocks
 // str += space + space + block + block + block + block + block + '\n'; // 2: 2 spaces, 5 blocks
 // str += block + block + block + block + block + block + block + '\n'; // 3: 0 spaces, 7 blocks
+
 
 for (let i = 0; i < ROWS; i++) {
     let spacesNumber = (ROWS - 1 - i) * 2;
@@ -218,9 +220,52 @@ for (let i = 0; i < ROWS; i++) {
     str += '\n';
 }
 
-console.log(str);
+console.log(str); 
+*/
 
 
+/*
+let card = 'A'
+let points 
 
 
+switch (card) {
+    case 'A':
+        points = 1
+        break;
+    case 'J':
+        points = 11
+        break;
+    case 'Q':
+        points = 12
+        break;
+    case 'K':
+        points = 13
+        break;
+    default:
+        points = Number(card)
+       
+} alert('card =' + card + ' ' + points); */
+
+
+// function printHello () {
+//     let who = 'World'
+//     alert (`Hello ${who}`);
+// }
+// printHello ();
+
+
+// let userName = 'Luca';
+// function showMessage () {
+//     let message = 'Hello ,' + userName;
+//     alert (message);
+// }
+
+// showMessage ();
+
+function showMessage(from, text = "Hello World!") {
+    alert( from + ": " + text );
+  }
+  
+  showMessage("Shorsh"); 
 
