@@ -305,43 +305,46 @@ Excersize 1:
 //    1. the first and last rows are always 'full'
 //    2. all other rows in between are always 'empty'
 
-let i;
-function buildRow(Columns) {
-  let row = '';
+// let rows = 4;
+// let columns = 7;
+// let i;
 
-  for (i = 0; i < Columns; i++) {
-    row += '*';
-  }
-  return row;
-}
+// function buildRow(columns) {
+//   let row = '';
 
-function buildRowWithSpace(Columns) {
-  let row = '';
+//   for (i = 0; i < columns; i++) {
+//     row += '*';
+//   }
+//   return row;
+// }
 
-  for (i = 0; i < Columns; i++) {
-    if (i === 0 || i === Columns - 1) {
-      row += '*';
-    } else {
-      row += ' ';
-    }
-  }
-  return row;
-}
+// function buildRowWithSpace(columns) {
+//   let row = '';
 
-function buildButton(Rows, Columns) {
-  let button = '';
+//   for (i = 0; i < columns; i++) {
+//     if (i === 0 || i === columns - 1) {
+//       row += '*';
+//     } else {
+//       row += ' ';
+//     }
+//   }
+//   return row;
+// }
 
-  for (let i = 0; i < Rows; i++) {
-    if (i === 0 || i === Rows - 1) {
-      button += buildRow(Columns) + '\n';
-    } else {
-      button += buildRowWithSpace(Columns) + '\n';
-    }
-  }
-  return button;
-}
-let button = buildButton(4, 7);
-console.log(button);
+// function buildButton(rows, columns) {
+//   let button = '';
+
+//   for (let i = 0; i < rows; i++) {
+//     if (i === 0 || i === rows - 1) {
+//       button += buildRow(columns) + '\n';
+//     } else {
+//       button += buildRowWithSpace(columns) + '\n';
+//     }
+//   }
+//   return button;
+// }
+// let button = buildButton(4, 7);
+// console.log(button);
 
 /* 
 Excersize 2:
@@ -385,4 +388,10 @@ Hint: Use the switch statment.
 //         alert(':(')
 //         break;
 //     }
-// }
+//
+
+let user = {
+  name,
+  age: 30
+};
+console.log(user);
